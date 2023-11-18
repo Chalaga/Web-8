@@ -1,0 +1,320 @@
+@media (min-width: 576px) {
+    .navbar-icon-container {
+        display: none;
+    }
+
+    .container {
+        align-items: center;
+        justify-content: space-between;
+        padding-inline: 347px;
+
+    }
+
+    .navbaroptions {
+        padding: 10px;
+        font-size: 14px;
+        color: #fff;
+    }
+
+    .download-for-windows {
+        display: grid;
+        background-color: #333;
+        grid-template-columns: 1fr 2fr;
+        padding-inline: 347px;
+        color: rgba(255, 255, 255, .6);
+
+    }
+
+
+    .download-for-windows h1 {
+        color: white;
+        font-size: 70px;
+        font-weight: 100;
+    }
+
+    .download-for-windows p {
+        color: rgba(255, 255, 255, .6);
+        font-size: 21px;
+    }
+
+    .download-for-windows button {
+        background-color: #0066b8;
+        border: 1px;
+        color: #fff;
+        font-size: 16px;
+        padding: 10px;
+        margin: 25px;
+    }
+
+    .other-platforms-container {
+        position: relative;
+        background-color: #25252b;
+        border-radius: 10px;
+        padding: 8px;
+        font-size: 20px;
+        margin: 15px;
+    }
+
+    .other-platforms-container::after {
+        content: "";
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        background-color: #25252b;
+        top: -5px;
+        right: 10px;
+        transform: rotate(45deg);
+    }
+
+    .download-options {
+        text-align: center;
+    }
+
+    .download-for-windows a {
+        color: blue;
+    }
+
+    .lciense {
+        font-size: 16px;
+    }
+
+    .excentions-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        text-align: center;
+        padding-inline: 347px;
+
+    }
+
+    .excentions-container button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    .reviews {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding-inline: 347px;
+
+    }
+
+
+    .swimlane {
+        padding-inline: 347px;
+        padding-block: 60px;
+        color: #242424;
+        font-size: 18px;
+    }
+
+    .meet-intelliSense {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 60px;
+    }
+
+    .home-debug {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 60px;
+        width: 100%;
+    }
+
+    .home-debug div {
+        grid-row: 1;
+    }
+
+    .git-commands {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 60px;
+    }
+
+    .extensible-and-customizable {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 60px;
+    }
+
+    .extensible-and-customizable div {
+        grid-row: 1;
+    }
+
+    .extensible-and-customizable img {
+        width: 360PX;
+        height: 235px;
+    }
+
+
+    .deploy-with-onfidence {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 60px;
+    }
+
+    .vscodefor-container {
+        padding-inline: 347px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+
+
+    .vscodeoptions {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto;
+        gap: 15PX;
+        font-size: 16px;
+    }
+
+    .languages a {
+        color: #0071bc;
+        font-size: 18px;
+    }
+
+    .platform-container {
+        padding-inline: 347px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .lciense-cotainer {
+        padding-inline: 347px;
+    }
+
+    .features-container {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        padding: 70px;
+    }
+
+    .footer-container {
+        display: flex;
+        justify-content: space-between;
+        background-color: #333;
+        font-size: 12px;
+        color: #fff;
+        padding-inline: 347px;
+    }
+
+    .footer-container a {
+        color: #fff;
+
+    }
+
+    .microsoft img {
+        width: 90px;
+        height: 20px;
+    }
+
+    .footer {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .microsoft {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .footer .github {
+        background-color: white;
+        padding: 2px 5px 2px 4px;
+        color: #333;
+        text-decoration: none;
+        text-shadow: 0 1px 0 #fff;
+        white-space: nowrap;
+        cursor: pointer;
+        border-radius: 3px;
+        position: relative;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .navbar-icon {
+        width: 22px;
+        height: 2px;
+        border-radius: 1px;
+        background-color: #fff;
+        display: block;
+        margin: 4px;
+    }
+
+    .navbar-icon-container {
+        background-color: #0072be;
+        border-radius: 4px;
+    }
+
+    .container {
+        justify-content: space-between;
+    }
+
+    .navbaroptions-container {
+        display: none;
+    }
+
+    .searchbar-container {
+        display: none;
+    }
+
+    .swimlane-container {
+        padding: 60px;
+    }
+
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        background-color: #333;
+        font-size: 12px;
+        color: #fff;
+        padding: 25px 0px 25px 10px;
+    }
+    
+    .microsoft img {
+        width: 90px;
+        height: 20px;
+    }
+    
+    
+    
+    .footer-container a {
+        color: #fff;
+        background-color: #333;
+        font-size: 12px;
+    }
+    
+    
+    .footer {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .microsoft {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .footer .github {
+        background-color: white;
+        padding: 2px 5px 2px 4px;
+        color: #333;
+        text-decoration: none;
+        text-shadow: 0 1px 0 #fff;
+        white-space: nowrap;
+        cursor: pointer;
+        border-radius: 3px;
+        position: relative;
+    }
+
+}

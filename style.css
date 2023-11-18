@@ -1,0 +1,335 @@
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+}
+
+* a {
+    text-decoration: none;
+}
+
+
+
+.mirror-header-container {
+    background-color: #333;
+    width: 100%;
+}
+
+.visual-studio-code-header {
+    font-size: 20px;
+    color: #fff;
+    background-image: url(./Pic/VSCicon.png);
+    background-size: 24px 24px;
+    background-repeat: no-repeat;
+    background-position: left 50%;
+    margin-left: 24px;
+    padding-left: 36px;
+    min-height: 50px;
+    padding-top: 15px;
+    line-height: 20px;
+}
+
+.container {
+    background-color: #333;
+    width: 100%;
+    display: flex;
+}
+
+.updatebar {
+    margin: 0;
+    text-align: center;
+    background-color: #25252b;
+    color: white;
+    font-size: 16px;
+    padding-block: 15px;
+}
+
+.updatebar a {
+    color: #0098ff;
+}
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+
+}
+
+.searchbar-container {
+    display: flex;
+}
+
+.Downloadbutton {
+    background-color: #0066b8;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 600px;
+    padding: 15px;
+}
+
+.searchbar button {
+    background-color: transparent;
+    border: 0;
+}
+
+.searchbar input {
+    background-color: transparent;
+    border: none;
+    padding: 15px;
+}
+
+.searchbar {
+    background-color: #25252b;
+    border: 1px;
+    height: 50px;
+}
+
+.download-for-windows {
+    display: grid;
+    background-color: #333;
+    grid-template-columns: 1fr;
+    color: rgba(255, 255, 255, .6);
+
+}
+
+
+.download-for-windows h1 {
+    color: white;
+    font-size: 70px;
+    font-weight: 100;
+}
+
+.download-for-windows p {
+    color: rgba(255, 255, 255, .6);
+    font-size: 21px;
+}
+
+.download-for-windows button {
+    background-color: #0066b8;
+    border: 1px;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+    margin: 25px;
+}
+
+.other-platforms-container {
+    position: relative;
+    background-color: #25252b;
+    border-radius: 10px;
+    padding: 8px;
+    font-size: 20px;
+    margin: 15px;
+}
+
+.other-platforms-container::after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #25252b;
+    top: -5px;
+    right: 10px;
+    transform: rotate(45deg);
+}
+
+.download-options {
+    text-align: center;
+}
+
+.download-for-windows a {
+    color: blue;
+}
+
+.lciense {
+    font-size: 16px;
+}
+
+.excentions-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    padding: 15px;
+}
+
+.excentions-container button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.reviews .card {
+    display: grid;
+    gap: 10px;
+    padding-block: 60px;
+    font-size: 20px;
+    grid-template-columns: 70px auto;
+}
+
+.card img {
+    border-radius: 100%;
+}
+
+.reviewcomment h6 {
+    margin: 0;
+}
+
+.reviews-container {
+    background-color: #f5f5f5;
+}
+
+.extensible-and-customizable img {
+    width: 360PX;
+    height: 235px;
+}
+
+.vscodefor-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.vscodeoptions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.vscodeoptions div {
+    margin: 10px;
+    text-align: center;
+}
+
+
+.languages a {
+    color: #0071bc;
+    font-size: 18px;
+}
+
+.get-started-now button {
+    background-color: #0066b8;
+    color: #fff;
+    margin: 20px;
+    border-radius: 2px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px 35px;
+}
+
+.windows {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.platform-container button {
+    color: #fff;
+    margin: 20px 0 5px;
+    padding: 10px 0;
+    font-size: 22px;
+    width: 240px;
+    background-color: #0066b8;
+}
+
+
+
+.table-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    gap: 10px;
+    margin: 0;
+}
+
+.platform-container a {
+    background: #0066b8;
+    color: #fff;
+    border-radius: 2px;
+    padding: 0 3px;
+    font-size: 12px;
+}
+
+.table-container div {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.linux {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.linux button {
+    color: #fff;
+    margin: 20px 0 5px;
+    padding: 10px 0;
+    font-size: 1.8rem;
+    width: 120px;
+    background-color: #0066b8;
+}
+
+.linux .table-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    text-align: center;
+    gap: 10px;
+    margin: 0;
+}
+
+.griditemsnap {
+    grid-column-start: 4;
+}
+
+.mac {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.mac .table-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    text-align: center;
+    gap: 10px;
+    margin: 0;
+}
+
+.features-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 34px 62px;
+    line-height: 25px;
+}
+
+.use-vscode {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.features-container h1 {
+    font-weight: 600;
+    color: #242424;
+    font-size: 18px;
+}
+
+.lciense-privacy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 34px 150px;
+    font-size: 12px;
+    line-height: 40px;
+}
+
